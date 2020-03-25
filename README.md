@@ -1,4 +1,4 @@
-<img src="./frontend/assets/omnistack.png" align="center"></img>
+<img src="frontend/src/assets/omnistack.png" align="center"></img>
 <h1 align="center">Omnistack Week 11</h1>
 <p align="center">Project <strong>Be The Hero</strong> developed during the Rocketseat OmniStack Week</p>
 
@@ -18,7 +18,7 @@
   <a aria-label="Completed" href="https://rocketseat.com.br/week-10/aulas#4">
     <img src="https://img.shields.io/badge/OmniStack-done-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
   </a>
-  <img src="./frontend/assets/heroes.png" align="center"></img>
+  <img src="frontend/src/assets/heroes.png" align="center"></img>
 </p>
 
 ## Instalation
