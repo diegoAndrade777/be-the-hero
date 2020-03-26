@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useHistory } from 'react-router-dom';
 import { FiPower, FiTrash2 } from 'react-icons/fi'
+import swal from 'sweetalert';
 
 import './styles.css';
 import logoImg from '../../assets/logo.svg';
@@ -33,7 +34,13 @@ export default function Profile() {
 
       setIncidents(incidents.filter(incident => incident.id !== id))
     } catch (err) {
-      alert('Erro ao deletar caso. Tente novamente.');
+      swal({
+        title: "Erro ao excluir caso!",
+        text: "Tente novamente.",
+        icon: "warning",
+        button: true,
+        dangerMode: true,
+      })
     }
   }
 
@@ -47,7 +54,7 @@ export default function Profile() {
     <div className="profile-container">
       <header>
         <img src={logoImg} alt="Be The Hero"/>
-        <span>Bem vindo {ongName}!</span>
+        <span>Bem vinda(o) {ongName}!</span>
 
         <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
         <button onClick={handleLogout} type="button">

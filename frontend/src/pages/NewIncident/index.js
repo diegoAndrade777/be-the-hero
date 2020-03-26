@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi'
+import swal from 'sweetalert';
 
 import './styles.css';
 import logoImg from '../../assets/logo.svg';
@@ -34,7 +35,13 @@ export default function NewIncident() {
 
       history.push('/profile');
     } catch (err) {
-      alert('Erro ao cadastrar caso. Tente novamente.')
+      swal({
+        title: "Erro ao cadastrar caso!",
+        text: "Tente novamente.",
+        icon: "warning",
+        button: true,
+        dangerMode: true,
+      })
     }
   }
 
