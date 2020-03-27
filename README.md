@@ -30,6 +30,17 @@ npm start
 ```
 When the process end, automatically will open the page `localhost:3000` on your web browser with de Project Be The Hero.
 
+To test the React Native **Mobile**, first put your server address (your computer) in the file`src/services/api.js`, and after execute the commands:
+```bash
+# Don't execute the following line if tou have the Expo (CLI) already intalled! 
+yarn global add install expo-cli
+
+cd mobile
+npm install
+npm start
+```
+When the proccess end, automatically will open the page `localhost:19002`. Connect your emulator, or test the app by `LAN`: Download the *Expo* app from Play Store or App Store and scan the QR Code.
+
 ## Licence
 
 [MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
