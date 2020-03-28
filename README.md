@@ -41,6 +41,12 @@ npm start
 ```
 When the proccess end, automatically will open the page `localhost:19002`. Connect your emulator, or test the app by `LAN`: Download the *Expo* app from Play Store or App Store and scan the QR Code.
 
+## Application Running
+
+You can check the application deployed at:
+
+https://diego-be-the-hero.netlify.com/
+
 ## Licence
 
 [MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
