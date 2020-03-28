@@ -22,6 +22,11 @@ cd backend
 npm install
 npm start
 ```
+
+## Backend
+
+<img align="center" src="./static/backend.gif"></img>
+
 ## Frontend
 
 <img align="center" src="./static/frontend.gif"></img>
