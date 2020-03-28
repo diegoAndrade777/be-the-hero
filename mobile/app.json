@@ -25,6 +25,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.diegoandrade777.bethehero",
+      "versionCode": 1
     }
   }
 }
