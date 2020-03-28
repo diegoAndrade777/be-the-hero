@@ -16,17 +16,17 @@
 </p>
 
 ## Instalation
+
+## Backend
+
+<img src="./static/backend.gif" align="center"></img>
+
 To install the dependencies and to execute the **Backend**, clone the project on your computer an execute:
 ```bash
 cd backend
 npm install
 npm start
 ```
-
-## Backend
-
-<img src="./static/backend.gif" align="center"></img>
-
 ## Frontend
 
 <img src="./static/frontend.gif" align="center"></img>
