@@ -25,11 +25,11 @@ npm start
 
 ## Backend
 
-<img align="center" src="./static/backend.gif"></img>
+<img src="./static/backend.gif" align="center"></img>
 
 ## Frontend
 
-<img align="center" src="./static/frontend.gif"></img>
+<img src="./static/frontend.gif" align="center"></img>
 
 To run the React's **Frontend** use:
 ```bash
@@ -41,7 +41,7 @@ When the process end, automatically will open the page `localhost:3000` on your 
 
 ## Mobile
 
-<img align="center" src="./static/mobile.gif"></img>
+<img src="./static/mobile.gif" align="center"></img>
 
 To test the React Native **Mobile**, first put your server address (your computer) in the file`src/services/api.js`, and after execute the commands:
 ```bash
