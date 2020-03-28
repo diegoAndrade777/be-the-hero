@@ -22,6 +22,10 @@ cd backend
 npm install
 npm start
 ```
+## Frontend
+
+<img align="center" src="./static/frontend.gif"></img>
+
 To run the React's **Frontend** use:
 ```bash
 cd frontend
@@ -29,6 +33,10 @@ npm install
 npm start
 ```
 When the process end, automatically will open the page `localhost:3000` on your web browser with de Project Be The Hero.
+
+## Mobile
+
+<img align="center" src="./static/mobile.gif"></img>
 
 To test the React Native **Mobile**, first put your server address (your computer) in the file`src/services/api.js`, and after execute the commands:
 ```bash
